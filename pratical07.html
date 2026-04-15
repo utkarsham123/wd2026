@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute / Profile Page</title>
+
+    <style>
+        /* Element Selector */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #dbeafe, #f8fafc);
+            color: #222;
+        }
+
+        nav {
+            background-color: #0f172a;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0f172a;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* ID Selector */
+        #mainBox {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            border: 3px solid #2563eb;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #profileImage {
+            display: block;
+            margin: 20px auto;
+            width: 220px;
+            height: 260px;
+            border: 4px solid #1d4ed8;
+            border-radius: 12px;
+        }
+
+        /* Class Selector */
+        .section {
+            background-color: #eff6ff;
+            border-left: 6px solid #2563eb;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .highlight {
+            color: #b91c1c;
+            font-weight: bold;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #0f172a;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="mainBox">
+        <h1>Dr. A.P.J. Abdul Kalam</h1>
+        <p class="center"><span class="highlight">Missile Man of India</span></p>
+
+        <img id="profileImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWxrB-ORxY7BBb1obzUW0kgCkfn8Ash9IKnNyR0WHBlsUyMIcfLu8Vyl-O3xXWTpZiOyYdPV3x_pxm6HaT9vZVY-78BQuA2Sa-WVTEm02&s=10" alt="A.P.J. Abdul Kalam">
+
+        <div class="section" id="about">
+            <h2>About</h2>
+            <p>
+                Dr. A.P.J. Abdul Kalam was a great scientist, teacher, and the 11th President of India.
+                He was known for his simplicity, knowledge, and love for students.
+            </p>
+        </div>
+
+        <div class="section" id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Known as the Missile Man of India.</li>
+                <li>Played an important role in India's missile and space programs.</li>
+                <li>Served as the 11th President of India.</li>
+                <li>Received the Bharat Ratna award.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Why He is Inspiring</h2>
+            <p>
+                He inspired young people to dream big, work hard, and serve the nation with honesty and dedication.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        Tribute / Profile Page using Internal CSS
+    </footer>
+
+</body>
+</html>
